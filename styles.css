@@ -1,3 +1,7 @@
+body{
+    font-family: Roboto;
+}
+
 .header_container{
 display: flex;
 justify-content: space-around;
@@ -9,6 +13,7 @@ justify-content: space-around;
     flex-direction: row;
     justify-content: flex-end;
     gap: 27px;    
+    color: #F9FAF8;
 }
 .bgcolor{
     background-color: #1F2937;
@@ -19,4 +24,11 @@ justify-content: space-around;
 }
 .herocolor{
     color: #F9FAF8
+}
+.head2{
+    font-size: 48px;
+    font-style: extra-bold;
+}
+a{
+    color:#F9FAF8
 }

@@ -10,3 +10,13 @@ justify-content: space-around;
     justify-content: flex-end;
     gap: 27px;    
 }
+.bgcolor{
+    background-color: #1F2937;
+}
+
+.imgborder{
+    border: solid #3882F6;
+}
+.herocolor{
+    color: #F9FAF8
+}

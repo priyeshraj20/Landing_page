@@ -1,0 +1,12 @@
+.header_container{
+display: flex;
+justify-content: space-around;
+
+}
+
+.topright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 27px;    
+}

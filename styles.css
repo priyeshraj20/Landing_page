@@ -1,9 +1,19 @@
 body{
     font-family: Roboto;
 }
+html, body { 
+    margin: 0; 
+    padding: 0; 
+} 
 
+.headerlogo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
 .mgnone{
-    margin: none;
+    margin: 0;
+    border: 0;
+    
     
 }
 
@@ -18,7 +28,6 @@ justify-content: space-around;
     flex-direction: row;
     justify-content: flex-end;
     gap: 27px;    
-    color: #F9FAF8;
 }
 .bgcolor{
     background-color: #1F2937;
@@ -27,13 +36,19 @@ justify-content: space-around;
 .imgborder{
     border: solid #3882F6;
 }
-.herocolor{
-    color: #F9FAF8
-}
+
 .head2{
     font-size: 48px;
     font-style: extra-bold;
+    color: #F9FAF8
 }
 a{
     color:#F9FAF8
+}
+
+.herocontent{
+    color: #E577eb;
+}
+footer{
+    height: 100px;
 }

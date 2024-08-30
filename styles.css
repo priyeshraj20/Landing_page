@@ -40,7 +40,9 @@ justify-content: space-around;
 .head2{
     font-size: 48px;
     font-style: extra-bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    width: 350px;
+    
 }
 a{
     color:#F9FAF8
@@ -48,7 +50,21 @@ a{
 
 .herocontent{
     color: #E577eb;
+    width: 400px;
 }
+
+.content_cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
 footer{
     height: 100px;
 }

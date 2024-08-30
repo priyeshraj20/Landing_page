@@ -6,6 +6,7 @@ html, body {
     padding: 0; 
 } 
 
+
 .headerlogo{
     color: #F9FAF8;
     font-size: 24px;
@@ -65,6 +66,19 @@ a{
   
 }
 
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
 footer{
     height: 100px;
+    display: flex;
+   
+}
+.bttext{
+    justify-self: center;
+    align-self: center;
 }

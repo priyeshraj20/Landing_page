@@ -57,6 +57,11 @@ a{
 .content_cont{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+contimgL{
+    background-color: ;
 }
 
 .para{
@@ -74,11 +79,15 @@ a{
 }
 
 footer{
-    height: 100px;
+    height: 60px;
+    border: 0;
+    margin: 0;
+    padding: 36px;
     display: flex;
-   
+    justify-content: center;   
+    align-content: center;
 }
+
 .bttext{
-    justify-self: center;
-    align-self: center;
+    color: #F9FAF8;
 }

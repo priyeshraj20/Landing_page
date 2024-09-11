@@ -41,7 +41,9 @@ justify-content: space-around;
 }
 
 .imgborder{
-    border: solid #3882F6;
+    padding: 60px 60px 60px 60px;
+    border: 3px solid #3882F6;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .head2{
@@ -57,7 +59,7 @@ a{
 }
 
 .herocontent{
-    color: #E577eb;
+    color: #E5e7eb;
     width: 400px;
 }
 
@@ -76,12 +78,33 @@ a{
    
 }
 
+.imgs{
+    
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    min-height: 175px;
+   }
+
+.imgs > h1{
+    text-align: center;
+}
+
+.imgs > div { 
+    padding: 5px 200px 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
 .quote{
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
     text-align: center;
+    background-color: #E5e7eb;
 }
 
 footer{

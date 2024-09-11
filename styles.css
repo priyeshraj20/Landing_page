@@ -40,6 +40,13 @@ justify-content: space-around;
     background-color: #1F2937;
 }
 
+.heroimg > img{
+    margin: 50px 50px 50px 50px;
+    padding: 150px 200px 150px 200px;
+    background-color: black;
+    color: #E5e7eb;
+}
+
 .imgborder{
     padding: 60px 60px 60px 60px;
     border: 3px solid #3882F6;
@@ -68,6 +75,7 @@ a{
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 200px;
+    padding-bottom: 20px;
 }
 
 
@@ -98,13 +106,56 @@ a{
     
 }
 
+figcaption{
+    color: #1F2937;
+}
+
 .quote{
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
-    text-align: center;
+    text-align: left;
     background-color: #E5e7eb;
+    padding-top: 75px;
+    padding-left: 300px;
+    padding-bottom: 75px;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: #3882F6;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.signupblock{
+    background-color: #3882F6;
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    margin: 50px 200px 50px 200px;
+    justify-content: space-between;
+    border-radius: 15px;
+    
+}
+
+.signupblock > p{
+    padding-left: 50px;
+    margin-top: 35px;
+    text-align: left;
+    color:#E5e7eb
+}
+
+.signupblock > p > span{
+    font-weight: bold;
+}
+
+.signupblock > button{
+    border: 1px solid #E5e7eb;
+    padding: 10px 40px 10px 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #E5e7eb;
+
 }
 
 footer{
@@ -116,6 +167,7 @@ footer{
     justify-content: center;   
     align-content: center;
 }
+
 
 .bttext{
     color: #F9FAF8;
